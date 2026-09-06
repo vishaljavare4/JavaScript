@@ -3,4 +3,23 @@ let b = 4;
 let c = a + b;
 console.log(c);
 
+// Declare a variable called "name" and assign it your name as a string. Then, log the variable to the console.
+const accounId = 144553;   // The accountId variable is declared using the const keyword, which means its value cannot be changed once assigned. It is assigned the value 144553, which is a number. This variable can be used to uniquely identify an account in a system or application.
+let accountEmail = "vishal@google.com";   // The accountEmail variable is declared using the let keyword, which means its value can be changed after assignment. It is assigned the value "vishal@google.com", which is a string. This variable can be used to store the email address of an account.
 
+//===============================================================================================================================
+//===============================================================================================================================
+
+var accountPassword = "12345";   // The accountPassword variable is declared using the var keyword, which means its value can be changed after assignment. It is assigned the value "12345", which is a string. This variable can be used to store the password of an account.
+
+// NOTE:- Prefer not to use var because of issue in block scope and functional scope. It is recommended to use let and const instead of var for variable declarations in modern JavaScript.
+
+//===============================================================================================================================
+//===============================================================================================================================
+
+
+accountCity = "Jaipur";   // The accountCity variable is declared without any keyword, which means it is implicitly declared as a global variable. It is assigned the value "Jaipur", which is a string. This variable can be used to store the city of an account.
+
+let accountState;
+
+console.table([accounId, accountEmail, accountPassword, accountCity, accountState]);
